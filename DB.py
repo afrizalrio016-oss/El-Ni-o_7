@@ -14,6 +14,15 @@ st.title("Analisis Kecepatan Arus Permukaan Laut")
 st.markdown("Berdasarkan Marine Copernicus: Global Ocean Physics Reanalysis")
 st.markdown("<hr/>", unsafe_allow_html=True)
 
+st.markdown("### Peta Penelitian")
+try:
+    img_peta_penelitian = Image.open("peta.png")
+    st.image(img_peta_penelitian, caption="Koordinat Peta Wilayah Penelitian N:0.8, E:119.00, S:-3.50, W:117.20", width='stretch')
+except FileNotFoundError:
+    st.error("Gambar peta.jpg tidak ditemukan di folder. Pastikan file peta.jpg sudah ditaruh di folder yang sama.")
+
+st.markdown("<hr/>", unsafe_allow_html=True)
+
 # ==========================================
 # BARIS 1: KPI UTAMA
 # ==========================================
