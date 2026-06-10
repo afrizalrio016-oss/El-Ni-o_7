@@ -146,5 +146,4 @@ with chart2:
 
 st.markdown("<hr/>", unsafe_allow_html=True)
 st.caption("Dibuat menggunakan Python & Streamlit")
-st.caption("Oleh Kelompok 7,
-rio")
+st.caption("Oleh Kelompok 7,Naurah:050, Raihan:064, Viki:070, Okta:077, Cinde:080, Khadafi:084, Rio:089, Difa:093")
