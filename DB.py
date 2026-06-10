@@ -6,7 +6,7 @@ from PIL import Image
 # Konfigurasi Halaman
 st.set_page_config(
     page_title='Dasborr_Kelompok_&',
-    page_icon='🌊',
+    page_icon='',
     layout='wide'
 )
 
